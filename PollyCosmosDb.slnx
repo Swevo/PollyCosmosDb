@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PollyCosmosDb/PollyCosmosDb.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PollyCosmosDb.Tests/PollyCosmosDb.Tests.csproj" />
+  </Folder>
+</Solution>
