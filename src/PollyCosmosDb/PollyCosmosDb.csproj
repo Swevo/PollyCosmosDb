@@ -9,11 +9,11 @@
     <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
 
     <PackageId>PollyCosmosDb</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Description>Polly v8 resilience pipelines for Azure Cosmos DB — retry, timeout, and circuit-breaker for Container operations, plus a built-in CosmosTransientErrors predicate covering rate limiting (429), timeouts (408), partition failovers (410), and service unavailability (503).</Description>
     <PackageTags>polly;cosmosdb;azure-cosmosdb;cosmos;azure;nosql;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;database;dependency-injection;microsoft-azure-cosmos</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientCosmosContainer wraps Azure Cosmos DB Container operations in a Polly v8 ResiliencePipeline. Includes CosmosTransientErrors helper with pre-built ShouldHandle predicate covering rate limiting (429), timeouts (408), partition splits (410), and service unavailability (503). Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientCosmosContainer wraps Azure Cosmos DB Container operations in a Polly v8 ResiliencePipeline. Includes CosmosTransientErrors helper with pre-built ShouldHandle predicate covering rate limiting (429), timeouts (408), partition splits (410), and service unavailability (503). Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyCosmosDb</RepositoryUrl>
@@ -42,8 +42,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
