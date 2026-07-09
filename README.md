@@ -3,6 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/PollyCosmosDb.svg)](https://www.nuget.org/packages/PollyCosmosDb)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyCosmosDb.svg)](https://www.nuget.org/packages/PollyCosmosDb)
 [![CI](https://github.com/Swevo/PollyCosmosDb/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyCosmosDb/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Polly v8 resilience for Azure Cosmos DB** — retry, timeout, and circuit-breaker for `Container` operations, plus a built-in `CosmosTransientErrors` predicate covering rate limiting (429), timeouts (408), partition failovers (410), and service unavailability (503). Zero changes to your existing Cosmos code.
 
